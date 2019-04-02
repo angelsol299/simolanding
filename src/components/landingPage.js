@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Projects from "./projects/projects";
+import About from "./aboutMe";
 
 class LandingPage extends Component {
   render() {
@@ -18,11 +20,12 @@ class LandingPage extends Component {
                 <p style={{ textAlign: "center" }}>
                   Tu energia en buenas manos
                 </p>
-                asdasd
               </div>
             </div>
           </Cell>
         </Grid>
+        <Projects />
+        <About />
       </div>
     );
   }
