@@ -51,9 +51,9 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>PHP</Tab>
-          <Tab>VueJS</Tab>
+          <Tab>Servicios especializados</Tab>
+          <Tab>Proyectos</Tab>
+          <Tab>Clientes</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
         f

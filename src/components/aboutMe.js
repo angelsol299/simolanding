@@ -19,11 +19,11 @@ class About extends Component {
             >
               {" "}
               <span className="full-text">
-                Somos una empresa 100% mexicana que busca satisfacer las
-                necesidades de la industria proporcionando soluciones eléctricas
-                integrales, brindando seguridad y confianza a nuestros clientes,
-                manteniendo en un estado óptimo de operación su negocio en
-                armonía con el medio ambiente.
+                Somos una empresa 100% <strong>mexicana</strong> que busca
+                satisfacer las necesidades de la industria proporcionando
+                soluciones eléctricas integrales, brindando seguridad y
+                confianza a nuestros clientes, manteniendo en un estado óptimo
+                de operación su negocio en armonía con el medio ambiente.
                 <br />
                 <br />
                 Nuestra <strong> misión </strong> es ser un concepto único en el
