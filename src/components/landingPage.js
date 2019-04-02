@@ -18,6 +18,7 @@ class LandingPage extends Component {
                 <p style={{ textAlign: "center" }}>
                   Tu energia en buenas manos
                 </p>
+                asdasd
               </div>
             </div>
           </Cell>
