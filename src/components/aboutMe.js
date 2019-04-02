@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class About extends Component {
   render() {
     return (
-      <div className="contact-body">
+      <div className="contact-body" style={{ marginBottom: "250px" }}>
         <Grid className="contact-grid">
           <Cell col={10}>
             <h2>hola! Bienvenido</h2>
