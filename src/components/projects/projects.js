@@ -12,8 +12,8 @@ import {
   CardMenu,
   IconButton
 } from "react-mdl";
-import Reactjs from './react';
-import Php from './php';
+import Reactjs from "./react";
+import Php from "./php";
 
 class Projects extends Component {
   constructor(props) {
@@ -23,13 +23,9 @@ class Projects extends Component {
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
-      return (
-        <Reactjs/>
-      );
+      return <Reactjs />;
     } else if (this.state.activeTab === 1) {
-      return (
-        <Php/>
-      );
+      return <Php />;
     } else if (this.state.activeTab === 2) {
       return (
         <div>
@@ -47,9 +43,9 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="category-tabs" style={{ marginTop: "60px" }}>
+      <div className="category-tabs" style={{ marginTop: "0px" }}>
         <Tabs
-        style={{backgroundColor:"white"}}
+          style={{ backgroundColor: "white" }}
           className="tabs-bar"
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
@@ -60,7 +56,7 @@ class Projects extends Component {
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
-
+        f
         <Grid>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()} </div>
