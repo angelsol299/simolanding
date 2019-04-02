@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class About extends Component {
   render() {
     return (
-      <div className="contact-body" style={{ marginTop: "70px" }}>
+      <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={10}>
             <h2>hola! Bienvenido</h2>
@@ -26,13 +26,13 @@ class About extends Component {
                 armonía con el medio ambiente.
                 <br />
                 <br />
-                Ser un concepto único en el mercado eléctrico que brinda
-                soluciones integrales innovadoras de calidad y amplio
-                rendimiento económico.
+                Nuestra <strong> misión </strong> es ser un concepto único en el
+                mercado eléctrico que brinda soluciones integrales innovadoras
+                de calidad y amplio rendimiento económico.
                 <br />
-                <br /> Responsabilidad <br /> Compromiso
-                <br />  Respeto
-                <br />  Honestidad <br /> Creatividad e innovación
+                <br />
+                Nuestros <strong> valores </strong>son:  Responsabilidad 
+                Compromiso  Respeto  Honestidad  Creatividad e innovación
               </span>
             </p>
             <p
