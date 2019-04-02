@@ -3,6 +3,7 @@ import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import Projects from "./components/projects/projects";
 
 class App extends Component {
   render() {
@@ -20,7 +21,7 @@ class App extends Component {
                 }}
                 to="/"
               >
-                My Portfolio
+                Home
               </Link>
             }
             scroll
@@ -49,6 +50,7 @@ class App extends Component {
           <Content>
             <div className="page-content" />
             <Main />
+            <Projects />
           </Content>
         </Layout>
       </div>
