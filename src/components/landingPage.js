@@ -25,7 +25,7 @@ class LandingPage extends Component {
             </div>
           </Cell>
         </Grid>
-        <About />
+        <About id="about" />
         <hr />
         <Projects />
         <FooterPage />
