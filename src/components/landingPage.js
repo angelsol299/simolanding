@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Projects from "./projects/projects";
 import About from "./aboutMe";
+import FooterPage from "./footerPage";
 
 class LandingPage extends Component {
   render() {
@@ -27,6 +28,7 @@ class LandingPage extends Component {
         <About />
         <hr />
         <Projects />
+        <FooterPage />
       </div>
     );
   }

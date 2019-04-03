@@ -329,3 +329,9 @@
 .img-resume {
   border-radius: 30%;
 }
+
+/*Footer*/
+
+.alignFooterLeft {
+  text-align: center;
+}

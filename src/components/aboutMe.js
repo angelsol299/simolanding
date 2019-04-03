@@ -8,7 +8,7 @@ class About extends Component {
       <div className="contact-body" style={{ marginBottom: "250px" }}>
         <Grid className="contact-grid">
           <Cell col={10}>
-            <h2>hola! Bienvenido</h2>
+            <h2>Bienvenido</h2>
             <p
               style={{
                 //width: "75%",
