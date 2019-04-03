@@ -19,6 +19,7 @@
 
 /*Landing Page*/
 .landing-grid {
+  opacity: 0.9;
   background-image: url("pics/power.jpg");
 }
 

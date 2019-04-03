@@ -20,18 +20,17 @@ class Reactjs extends Component {
               color: "black",
               height: "176px",
               width: "100%",
-              background:
-                "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
+              background: "url(https://bit.ly/2uKNA52) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                App: Poketimes
+                Iluminación
               </span>
             </b>{" "}
             <br />
-            Technologies: React and redux
+            Estudios de iluminación en centros de trabajo
           </CardText>
           <CardActions border>
             <Button
@@ -55,18 +54,17 @@ class Reactjs extends Component {
               color: "black",
               height: "176px",
               width: "100%",
-              background:
-                "url(https://cdn-images-1.medium.com/max/1200/1*Ukhx76VQ8E6JXEW7xfIzSA.png) center / cover"
+              background: "url(https://bit.ly/2UgWfLy) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                App: Tic Tac Toe Game
+                Sistemas contra descargas
               </span>
             </b>
             <br />
-            Technologies: React and Typescript.
+            Medición e instalación de sistemas contra descargas atmosféricas.
           </CardText>
           <CardActions border>
             <Button
@@ -90,18 +88,17 @@ class Reactjs extends Component {
               color: "black",
               height: "176px",
               width: "100%",
-              background:
-                "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
+              background: "url(https://bit.ly/2CTUJo7) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                App: Todo App
+                Correciones
               </span>
             </b>
             <br />
-            Technologies: React and Redux.
+            Corrección de factor de potencia.
           </CardText>
           <CardActions border>
             <Button
