@@ -35,15 +35,15 @@ class App extends Component {
           <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                My Portfolio
+                Home
               </Link>
             }
           >
             <Navigation className="nav-side">
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/aboutme">Nosotros</Link>
+              <Link to="/projects">Proyectos</Link>
+              <Link to="/contact">Contacto</Link>
             </Navigation>
           </Drawer>
           <Content>

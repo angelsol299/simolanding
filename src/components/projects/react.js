@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
   Card,
   CardTitle,
   CardActions,

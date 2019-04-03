@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 class About extends Component {
   render() {
     return (
-      <div className="contact-body" style={{ marginBottom: "250px" }}>
-        <Grid className="contact-grid">
+      <div className="contact-body">
+        <Grid className="contact-grid" style={{ marginBottom: "250px" }}>
           <Cell col={10}>
             <h2>Bienvenido</h2>
             <p
@@ -35,6 +35,7 @@ class About extends Component {
                 Compromiso  Respeto  Honestidad  Creatividad e innovación
               </span>
             </p>
+
             <p
               style={{
                 //width: "75%",
@@ -45,10 +46,10 @@ class About extends Component {
             >
               {" "}
               <span className="short-text">
-                I've studied management, entrepreneurship, economics and latelty
-                <b> Front End Development.</b> I've discover my passion for
-                technology since I was a teenagare but I've never developed a
-                professional interest about it untill the past year.
+                Somos una empresa 100% <strong>mexicana</strong> que busca
+                satisfacer las necesidades de la industria proporcionando
+                soluciones eléctricas integrales, brindando seguridad y
+                confianza a nuestros clientes.
               </span>
               <br />
               <br />
