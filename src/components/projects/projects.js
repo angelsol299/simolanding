@@ -1,19 +1,8 @@
 import React, { Component } from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardActions,
-  CardText,
-  Button,
-  CardMenu,
-  IconButton
-} from "react-mdl";
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import Reactjs from "./react";
 import Php from "./php";
+import Clientes from "./clientes";
 
 class Projects extends Component {
   constructor(props) {
@@ -29,13 +18,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Vue JS</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is Mongo DB</h1>
+          <Clientes />
         </div>
       );
     }
@@ -54,7 +37,6 @@ class Projects extends Component {
           <Tab>Servicios especializados</Tab>
           <Tab>Proyectos</Tab>
           <Tab>Clientes</Tab>
-          <Tab>MongoDB</Tab>
         </Tabs>
         f
         <Grid>
