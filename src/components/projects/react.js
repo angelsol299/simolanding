@@ -32,17 +32,6 @@ class Reactjs extends Component {
             <br />
             Estudios de iluminación en centros de trabajo
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/react-redux-poketimes"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>
@@ -66,17 +55,7 @@ class Reactjs extends Component {
             <br />
             Medición e instalación de sistemas contra descargas atmosféricas.
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/tictactoeapp"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
+
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>
@@ -100,17 +79,7 @@ class Reactjs extends Component {
             <br />
             Corrección de factor de potencia.
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/React-redux-todoapp"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
+
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>

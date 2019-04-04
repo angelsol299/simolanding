@@ -27,7 +27,7 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="#about">Nosotros</Link>
+              <a href=".about">Nosotros</a>
               <Link to="/projects">Proyectos</Link>
               <Link to="/contact">Contacto</Link>
             </Navigation>
@@ -41,7 +41,7 @@ class App extends Component {
           >
             <Navigation className="nav-side">
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">Nosotros</Link>
+              <a href=".about">Nosotros</a>
               <Link to="/projects">Proyectos</Link>
               <Link to="/contact">Contacto</Link>
             </Navigation>

@@ -9,7 +9,7 @@ class LandingPage extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <LandingContent />
-        <About id="about" />
+        <About className="about" />
         <hr />
         <Projects />
 
