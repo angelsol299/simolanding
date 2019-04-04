@@ -10,17 +10,17 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #667db6,
-    #0082c8,
-    #0082c8,
-    #667db6
+    #97b9cf,
+    #90d0f3,
+    #3cabe7,
+    #5477a0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*Landing Page*/
 .landing-grid {
   opacity: 0.9;
-  background-image: url("pics/power.jpg");
+  background-image: url("https://www.pbctoday.co.uk/news/wp-content/uploads/2019/02/Morgan-Sindall-Infrastructure-wins-%C2%A380m-electricity-cable-project-%C2%A9-Photovs-.jpg");
 }
 
 .avatar-img {
@@ -55,6 +55,7 @@
 
 .MiddleBanner {
   margin-bottom: 200px;
+  text-align: center;
 }
 
 .banner-text hr {

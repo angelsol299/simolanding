@@ -13,7 +13,15 @@ const LandingContent = () => {
         <div className="MiddleBanner">
           <div className="banner-text">
             <h1>Grupo SIME</h1>
-            <p style={{ textAlign: "center" }}>Tu energia en buenas manos</p>
+            <p
+              style={{
+                textAlign: "center",
+                marginTop: "-25px",
+                fontStyle: "italic"
+              }}
+            >
+              Tu energia en buenas manos
+            </p>
           </div>
         </div>
       </Cell>

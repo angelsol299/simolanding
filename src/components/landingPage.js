@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import LandingContent from "./landingContent";
-
 import Projects from "./projects/projects";
 import About from "./aboutMe";
 import FooterPage from "./footerPage";
@@ -13,6 +12,7 @@ class LandingPage extends Component {
         <About id="about" />
         <hr />
         <Projects />
+
         <FooterPage />
       </div>
     );
