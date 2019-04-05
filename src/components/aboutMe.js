@@ -14,12 +14,14 @@ class About extends Component {
             textAlign: "center"
           }}
         >
-          <h2 style={{ fontSize: "80px" }}>Bienvenido</h2>
+          <h2 style={{ fontSize: "80px", color: "#085078" }}>
+            Bien<span style={{ color: "grey" }}>ve</span>
+            <span style={{ color: "black" }}>nido</span>
+          </h2>
         </span>
         <Grid
           className="contact-grid"
           style={{
-            marginBottom: "250px",
             display: "flex"
           }}
         >
@@ -69,7 +71,8 @@ class About extends Component {
                 //width: "75%",
                 margin: "auto",
                 paddingTop: "1em",
-                fontSize: "25px"
+                fontSize: "25px",
+                color: "black"
               }}
             >
               <span className="full-text">
