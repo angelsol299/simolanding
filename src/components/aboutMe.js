@@ -14,7 +14,7 @@ class About extends Component {
             textAlign: "center"
           }}
         >
-          <h2 style={{ fontSize: "80px", color: "#085078" }}>
+          <h2 style={{ fontSize: "60px", color: "#085078" }}>
             Bien<span style={{ color: "grey" }}>ve</span>
             <span style={{ color: "black" }}>nido</span>
           </h2>

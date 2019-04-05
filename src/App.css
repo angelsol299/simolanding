@@ -135,10 +135,9 @@
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 100%;
   background: white;
   color: black;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 440px) {
@@ -206,7 +205,6 @@
     line-height: 50px;
   }
   .contact-grid h2 {
-    margin-top: -20px;
     font-size: 45px;
   }
 }
