@@ -27,6 +27,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="category-tabs" style={{ marginTop: "0px" }}>
+        <hr />
         <Tabs
           style={{ backgroundColor: "white" }}
           className="tabs-bar"
