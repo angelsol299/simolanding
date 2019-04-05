@@ -6,15 +6,31 @@ class About extends Component {
   render() {
     return (
       <div className="contact-body">
-        <Grid className="contact-grid" style={{ marginBottom: "250px" }}>
-          <Cell col={10}>
-            <h2>Bienvenido</h2>
+        <span
+          style={{
+            //width: "75%",
+            margin: "auto",
+            paddingTop: "1em",
+            textAlign: "center"
+          }}
+        >
+          <h2 style={{ fontSize: "80px" }}>Bienvenido</h2>
+        </span>
+        <Grid
+          className="contact-grid"
+          style={{
+            marginBottom: "250px",
+            display: "flex"
+          }}
+        >
+          <Cell col={6} style={{ flex: "2" }}>
             <p
               style={{
                 //width: "75%",
                 margin: "auto",
                 paddingTop: "1em",
-                fontSize: "30px"
+                fontSize: "25px",
+                marginRight: "60px"
               }}
             >
               {" "}
@@ -24,15 +40,6 @@ class About extends Component {
                 soluciones eléctricas integrales, brindando seguridad y
                 confianza a nuestros clientes, manteniendo en un estado óptimo
                 de operación su negocio en armonía con el medio ambiente.
-                <br />
-                <br />
-                Nuestra <strong> misión </strong> es ser un concepto único en el
-                mercado eléctrico que brinda soluciones integrales innovadoras
-                de calidad y amplio rendimiento económico.
-                <br />
-                <br />
-                Nuestros <strong> valores </strong>son:  Responsabilidad 
-                Compromiso  Respeto  Honestidad  Creatividad e innovación
               </span>
             </p>
 
@@ -41,7 +48,8 @@ class About extends Component {
                 //width: "75%",
                 margin: "auto",
                 //paddingTop: "1em",
-                fontSize: "30px"
+                fontSize: "30px",
+                float: "right"
               }}
             >
               {" "}
@@ -53,6 +61,25 @@ class About extends Component {
               </span>
               <br />
               <br />
+            </p>
+          </Cell>
+          <Cell col={6} style={{ flex: "2" }}>
+            <p
+              style={{
+                //width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                fontSize: "25px"
+              }}
+            >
+              <span className="full-text">
+                Nuestra <strong> misión </strong> es ser un concepto único en el
+                mercado eléctrico que brinda soluciones integrales innovadoras
+                de calidad y amplio rendimiento económico.
+                <br />
+                Nuestros <strong> valores </strong>son:  Responsabilidad 
+                Compromiso  Respeto  Honestidad  Creatividad e innovación
+              </span>
             </p>
           </Cell>
         </Grid>
