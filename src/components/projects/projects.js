@@ -12,9 +12,9 @@ class Projects extends Component {
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
-      return <Reactjs />;
-    } else if (this.state.activeTab === 1) {
       return <Php />;
+    } else if (this.state.activeTab === 1) {
+      return <Reactjs />;
     } else if (this.state.activeTab === 2) {
       return (
         <div>
@@ -34,8 +34,8 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Servicios especializados</Tab>
           <Tab>Proyectos</Tab>
+          <Tab>Servicios especializados</Tab>
           <Tab>Clientes</Tab>
         </Tabs>
         f
