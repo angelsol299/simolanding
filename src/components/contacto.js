@@ -4,6 +4,7 @@ import { Grid } from "react-mdl";
 const Contacto = () => {
   return (
     <div>
+      <hr style={{ border: "solid 1.5px", color: "grey" }} />
       <h1 style={{ textAlign: "center", fontSize: "60px" }}>Contacto</h1>
 
       <div
@@ -26,6 +27,7 @@ const Contacto = () => {
           Enviar
         </button>
       </div>
+      <br />
     </div>
   );
 };
