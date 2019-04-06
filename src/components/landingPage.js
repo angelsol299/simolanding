@@ -4,6 +4,7 @@ import Projects from "./projects/projects";
 import About from "./aboutMe";
 import FooterPage from "./footerPage";
 import Aspects from "./aspects";
+import Contacto from "./contacto";
 
 class LandingPage extends Component {
   render() {
@@ -13,7 +14,7 @@ class LandingPage extends Component {
         <About className="about" />
         <Aspects />
         <Projects />
-
+        <Contacto />
         <FooterPage />
       </div>
     );

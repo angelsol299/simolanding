@@ -26,8 +26,8 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <a href=".about">Nosotros</a>
+              <Link to="/resume">Nosotros</Link>
+              <a href=".about">Nuestra experiencia</a>
               <Link to="/projects">Proyectos</Link>
               <Link to="/contact">Contacto</Link>
             </Navigation>
