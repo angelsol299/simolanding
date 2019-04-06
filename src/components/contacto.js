@@ -7,25 +7,32 @@ const Contacto = () => {
       <hr style={{ border: "solid 1.5px", color: "grey" }} />
       <h1 style={{ textAlign: "center", fontSize: "60px" }}>Contacto</h1>
 
-      <div
-        style={{
-          textAlign: "center",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center"
-        }}
-      >
-        Nombre <input type="text" style={{ width: "300px" }} />
-        <br />
-        Telefono <input type="text" style={{ width: "300px" }} />
-        <br />
-        email <input type="text" style={{ width: "300px" }} />
-        <br />
-        <button
-          style={{ border: "none", backgroundColor: "grey", color: "white" }}
+      <div>
+        <form
+          style={{
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center"
+          }}
+          action="https://formspree.io/angelsol299@hotmail.com"
+          method="POST"
         >
-          Enviar
-        </button>
+          Nombre <input type="text" style={{ width: "300px" }} name="nombre" />
+          <br />
+          Telefono{" "}
+          <input type="text" style={{ width: "300px" }} name="telefono" />
+          <br />
+          email <input type="text" style={{ width: "300px" }} name="email" />
+          <br />
+          <button
+            value="send"
+            type="submit"
+            style={{ border: "none", backgroundColor: "grey", color: "white" }}
+          >
+            Enviar
+          </button>
+        </form>
       </div>
       <br />
     </div>
