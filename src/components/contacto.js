@@ -5,7 +5,7 @@ const Contacto = () => {
     <div>
       <br />
       <br />
-      <h1 style={{ textAlign: "center", fontSize: "60px" }}>Contacto</h1>
+      <h1 style={{ textAlign: "center", fontSize: "50px" }}>Contacto</h1>
       <div>
         <form
           style={{
@@ -66,7 +66,14 @@ const Contacto = () => {
           <button
             value="send"
             type="submit"
-            style={{ border: "none", backgroundColor: "grey", color: "white" }}
+            style={{
+              border: "none",
+              backgroundColor: "#b9dee5",
+              borderRadius: "8px",
+              color: "white",
+              width: "70px",
+              height: "25px"
+            }}
           >
             Enviar
           </button>

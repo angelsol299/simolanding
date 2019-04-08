@@ -7,12 +7,12 @@ const Casos = () => {
       style={{
         textAlign: "center",
         width: "100%",
-        height: "300px",
+        height: "350px",
         backgroundColor: "#edf4ff"
       }}
     >
       <br />
-      <h1>Casos</h1>
+      <h1 style={{ fontSize: "50px" }}>Casos</h1>
       <br />
       <p style={{ margin: "0 450px 0 450px", fontSize: "18px" }}>
         A continuación presentamos algunos de los muchos casos de éxito en
@@ -22,7 +22,18 @@ const Casos = () => {
       </p>
       <br />
       <br />
-      <button>Descargar</button>
+      <button
+        style={{
+          border: "none",
+          backgroundColor: "#b9dee5",
+          borderRadius: "8px",
+          color: "white",
+          width: "90px",
+          height: "25px"
+        }}
+      >
+        Descargar
+      </button>
     </div>
   );
 };

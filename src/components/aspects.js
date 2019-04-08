@@ -6,7 +6,7 @@ const Aspects = () => {
       <hr style={{ border: "solid 1.5px", color: "#d9dce0" }} />
       <br />
       <br />
-      <h1 style={{ textAlign: "center", fontSize: "60px" }}>
+      <h1 style={{ textAlign: "center", fontSize: "50px" }}>
         Nuestra Experiencia
       </h1>
       <br />
