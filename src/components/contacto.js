@@ -1,12 +1,11 @@
 import React from "react";
-import { Grid } from "react-mdl";
 
 const Contacto = () => {
   return (
     <div>
-      <hr style={{ border: "solid 1.5px", color: "#d9dce0" }} />
+      <br />
+      <br />
       <h1 style={{ textAlign: "center", fontSize: "60px" }}>Contacto</h1>
-
       <div>
         <form
           style={{
