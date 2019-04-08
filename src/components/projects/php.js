@@ -25,29 +25,19 @@ class Php extends Component {
               height: "176px",
               width: "100%",
               background:
-                "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
+                "url(http://mtlgeotecniasac.com/web/wp-content/uploads/2017/10/Para-que-sirve-un-estudio-de-Suelos.jpg) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                App: Under Development
+                Estudio de tierras
               </span>
             </b>{" "}
             <br />
-            Technologies: under development
+            Se realizó el estudio y análisis del sistema de tierras
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/react-redux-poketimes"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
+
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>
@@ -60,29 +50,19 @@ class Php extends Component {
               height: "176px",
               width: "100%",
               background:
-                "url(https://cdn.intellipaat.com/mediaFiles/2014/11/PHP-MySQL-Training.jpg) center / cover"
+                "url(https://at3w.com/upload/imagenes/proteccion_contra_el_rayo_pdc.jpg) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                Journal
+                Instalación de pararrayos
               </span>
             </b>
             <br />
-            Technologies: PHP and MySQL.
+            Diseño e instalación de sistema contra descargas atmosféricas.
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/tictactoeapp"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
+
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>
@@ -95,29 +75,19 @@ class Php extends Component {
               height: "176px",
               width: "100%",
               background:
-                "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
+                "url(https://thumb.bibliocad.com/images/content/00110000/8000/118344.jpg) center / cover"
             }}
           />
           <CardText>
             <b>
               <span style={{ fontSize: "20px", color: "#0099cc" }}>
-                App: Under Development
+                Instalación de diagramas
               </span>
             </b>{" "}
             <br />
-            Technologies: under development
+            Se realizó el levantamiento técnico y criterio normativo vigente.
           </CardText>
-          <CardActions border>
-            <Button
-              href="https://github.com/angelsol299/react-redux-poketimes"
-              colored
-              target="_blank"
-            >
-              Github
-            </Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LivedDemo</Button>
-          </CardActions>
+
           <CardMenu style={{ color: "black" }}>
             <IconButton name="share" />
           </CardMenu>

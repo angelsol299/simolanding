@@ -39,7 +39,7 @@ const Contacto = () => {
             name="telefono"
           />
           <br />
-          email{" "}
+          Email{" "}
           <input
             type="text"
             style={{
