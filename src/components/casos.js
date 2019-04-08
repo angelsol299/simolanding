@@ -14,7 +14,13 @@ const Casos = () => {
       <br />
       <h1 style={{ fontSize: "50px" }}>Casos</h1>
       <br />
-      <p style={{ margin: "0 450px 0 450px", fontSize: "18px" }}>
+      <p
+        style={{
+          margin: "0 450px 0 450px",
+          fontSize: "18px",
+          textAlign: "justify"
+        }}
+      >
         A continuación presentamos algunos de los muchos casos de éxito en
         conjunto con nuestro curriculum con los que en conjunto con nuestros
         clientes hemos logrado y a los cuales agradecemos su confianza a lo
