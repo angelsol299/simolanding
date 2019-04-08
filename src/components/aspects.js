@@ -3,7 +3,7 @@ import React from "react";
 const Aspects = () => {
   return (
     <div>
-      <hr style={{ border: "solid 1.5px", color: "grey" }} />
+      <hr style={{ border: "solid 1.5px", color: "#d9dce0" }} />
       <br />
       <br />
       <h1 style={{ textAlign: "center", fontSize: "60px" }}>

@@ -1,5 +1,6 @@
 /*main header*/
 .header-color {
+  opacity: 0.95;
   background: #667db6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
