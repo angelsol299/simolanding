@@ -29,7 +29,7 @@ class App extends Component {
               <Link to="/resume">Nosotros</Link>
               <a href=".about">Nuestra experiencia</a>
               <Link to="/projects">Proyectos</Link>
-              <Link to="/contact">Contacto</Link>
+              <Link to="#contact">Contacto</Link>
             </Navigation>
           </Header>
           <Drawer

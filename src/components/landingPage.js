@@ -6,9 +6,6 @@ import FooterPage from "./footerPage";
 import Aspects from "./aspects";
 import Contacto from "./contacto";
 import Casos from "./casos";
-import ReallySmoothScroll from "ReallySmoothScroll";
-
-ReallySmoothScroll.shim();
 
 class LandingPage extends Component {
   render() {
@@ -19,7 +16,8 @@ class LandingPage extends Component {
         <Aspects />
         <Projects />
         <Casos />
-        <Contacto />
+        <Contacto id="contact" />
+
         <FooterPage />
       </div>
     );
