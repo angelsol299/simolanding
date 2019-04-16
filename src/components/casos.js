@@ -2,6 +2,10 @@ import React from "react";
 import { Grid, Cell } from "react-mdl";
 
 const Casos = () => {
+  const toLink = () => {
+    window.location.href =
+      "https://www.dropbox.com/s/d2w2u6dohh11s86/CV%20SIME.pdf?dl=0";
+  };
   return (
     <div
       style={{
@@ -29,6 +33,7 @@ const Casos = () => {
       <br />
       <br />
       <button
+        onClick={toLink}
         style={{
           border: "none",
           backgroundColor: "#b9dee5",
